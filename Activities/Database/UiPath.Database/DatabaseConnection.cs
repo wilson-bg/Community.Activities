@@ -20,6 +20,7 @@ namespace UiPath.Database
 {
     public class DatabaseConnection : IDisposable
     {
+        
         private DbConnection _connection;
         private DbCommand _command;
         private DbTransaction _transaction;
